@@ -8,11 +8,6 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 
-from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report
-import matplotlib.pyplot as plt
-import seaborn as sns
-
 
 # Load model
 with open('model-penguin-66130700355.pkl', 'rb') as file:
