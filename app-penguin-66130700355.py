@@ -5,7 +5,7 @@ import pandas as pd
 from sklearn.pipeline import Pipeline
 from sklearn.preprocessing import LabelEncoder
 from sklearn.preprocessing import StandardScaler
-from sklearn.neighbors import RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 import pickle
 
 from sklearn.model_selection import train_test_split
